@@ -77,14 +77,12 @@ Write a function named forEachTwoToThe that produces the same output as your for
 
 const forEachTwoToThe = (arr) => {
   // Solution code here...
-  const forEachTwoToThe = (arr) => {
-    let myArr = [];
-    arr.forEach(num => {
-      myArr.push(Math.pow(2, num));
-    }
-    );
-    return myArr;
-  };
+  let myArr = [];
+  arr.forEach(num => {
+    myArr.push(Math.pow(2, num));
+  }
+  );
+  return myArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -102,6 +100,7 @@ const mapTwoToThe = (arr) => {
   );
   return myArr;
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
